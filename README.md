@@ -11,10 +11,12 @@ see: https://docs.github.com/ja/free-pro-team@latest/github/building-a-strong-co
 Use all repogitory, at create base.
 [tsuyoshicho/all-repository-base-template](https://github.com/tsuyoshicho/all-repository-base-template)
 
-include
+include below:
 
-- .gitattributes / .gitignore (genereate from https://www.toptal.com/developers/gitignore/)
-- .github and application config
+- `.gitattributes` / `.gitignore` (genereate from https://www.toptal.com/developers/gitignore/)
+- application config in `.github`
+- release workflow in `.github/workflows`
+- semver update workflow in `.github/workflows`
 
 ## renovate
 
@@ -42,8 +44,11 @@ and see: [GitHub Apps - auto-assign-issues](https://github.com/apps/auto-assign-
 All repogitories are enabled.
 
 ## GitHub Action : bump
+
+Using release / semver update.
+
 auto-gen PR and vesion bump up label
-see [haya14busa/action\-bumpr: 💥 Bump semantic version tag on merging Pull Requests with specific lables\.](https://github.com/haya14busa/action-bumpr)
+see: [haya14busa/action-bumpr](https://github.com/haya14busa/action-bumpr)
 
 - label bump:major - Bump up major version / #ff0000
 - label bump:minor - Bump up minor version / #AA3300
