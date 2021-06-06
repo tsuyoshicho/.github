@@ -5,6 +5,7 @@ GitHub global config for:
 - CODE_OF_CONTRUCT
 - ISSUE_TEMPLATE
 - PULL_REQUEST_TEMPLATE
+- FUNDING (?)
 
 see: https://docs.github.com/ja/free-pro-team@latest/github/building-a-strong-community/creating-a-default-community-health-file
 

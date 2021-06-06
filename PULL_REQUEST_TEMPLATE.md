@@ -2,12 +2,11 @@
 
 close #.
 
-## Fix or Add this PR/このプルリクエストでやったこと
+## Fix or Add/Remove this PR/このプルリクエストでやったこと
 
 - ...
 
-
-## Not fix or add this PR/このプルリクエストでやらなかったこと
+## Not fix or add/remove this PR/このプルリクエストでやらなかったこと
 
 - ...
 
@@ -17,7 +16,7 @@ close #.
 
 ## Test/動作確認
 
-チェックボックス式にし、確認後チェックする。
+Test item list up with checkbox, checked after tested./チェックボックス式にし、確認後チェックする。
 
 - [ ] ...
 
