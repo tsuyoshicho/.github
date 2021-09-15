@@ -6,14 +6,14 @@ GitHub global config for:
   (see [Contributor Covenant](https://www.contributor-covenant.org/) site)
 - ISSUE_TEMPLATE
 - PULL_REQUEST_TEMPLATE
-- FUNDING (?)
+- FUNDING
 
 see: [Creating a default community health file - GitHub Docs](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
 
 ## template
 
 Used in all repositories, for creating base.
-[tsuyoshicho/all-repository-base-template](https://github.com/tsuyoshicho/all-repository-base-template)
+setup template repository for [tsuyoshicho/all-repository-base-template](https://github.com/tsuyoshicho/all-repository-base-template).
 
 include below:
 
@@ -22,7 +22,9 @@ include below:
 - release workflow in `.github/workflows`
 - semver update workflow in `.github/workflows`
 
-and auto add labels
+## common labels
+
+Issue template files to automatic add below labels.
 
 - label auto:bug / undefined
 - label question / undefined
