@@ -2,7 +2,7 @@
 
 GitHub global config for:
 
-- CODE_OF_CONTRUCT
+- CODE_OF_CONTRUCT (see [Contributor Covenant](https://www.contributor-covenant.org/) site)
 - ISSUE_TEMPLATE
 - PULL_REQUEST_TEMPLATE
 - FUNDING (?)
@@ -11,12 +11,12 @@ see: https://docs.github.com/ja/free-pro-team@latest/github/building-a-strong-co
 
 ## template
 
-Use all repogitory, at create base.
+Used in all repositories, for creating base.
 [tsuyoshicho/all-repository-base-template](https://github.com/tsuyoshicho/all-repository-base-template)
 
 include below:
 
-- `.gitattributes` / `.gitignore` (genereate from https://www.toptal.com/developers/gitignore/)
+- `.gitattributes` / `.gitignore` (generate from https://www.toptal.com/developers/gitignore/)
 - application config in `.github`
 - release workflow in `.github/workflows`
 - semver update workflow in `.github/workflows`
@@ -28,7 +28,7 @@ and see: [tsuyoshicho/renovate-config](https://github.com/tsuyoshicho/renovate-c
 
 - label renovate - renovate update / #313cb7
 
-All repogitories are disabled, select enabled.
+All repositories are disabled, and enable are selected.
 
 ## Weekly Digest
 
@@ -37,20 +37,20 @@ and see: [GitHub Apps - Weekly Digest](https://github.com/apps/weekly-digest)
 
 - label weekly-digest - (none) / #9C27B0
 
-All repogitories are disabled, select enabled.
+All repositories are disabled, and enable are selected.
 
 ## auto-assign-issues
 
 Default config include.
 and see: [GitHub Apps - auto-assign-issues](https://github.com/apps/auto-assign-issues)
 
-All repogitories are enabled.
+All repositories are enabled.
 
 ## GitHub Action : bump
 
 Using release / semver update.
 
-auto-gen PR and vesion bump up label
+auto-gen PR and version bump up label
 see: [haya14busa/action-bumpr](https://github.com/haya14busa/action-bumpr)
 
 - label bump:major - Bump up major version / #ff0000
