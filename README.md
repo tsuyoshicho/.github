@@ -2,12 +2,13 @@
 
 GitHub global config for:
 
-- CODE_OF_CONTRUCT (see [Contributor Covenant](https://www.contributor-covenant.org/) site)
+- CODE_OF_CONTRUCT
+  (see [Contributor Covenant](https://www.contributor-covenant.org/) site)
 - ISSUE_TEMPLATE
 - PULL_REQUEST_TEMPLATE
 - FUNDING (?)
 
-see: https://docs.github.com/ja/free-pro-team@latest/github/building-a-strong-community/creating-a-default-community-health-file
+see: [Creating a default community health file - GitHub Docs](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
 
 ## template
 
@@ -16,10 +17,15 @@ Used in all repositories, for creating base.
 
 include below:
 
-- `.gitattributes` / `.gitignore` (generate from https://www.toptal.com/developers/gitignore/)
+- `.gitattributes` / `.gitignore` (generate from [gitignore.io](https://www.toptal.com/developers/gitignore))
 - application config in `.github`
 - release workflow in `.github/workflows`
 - semver update workflow in `.github/workflows`
+
+and auto add labels
+
+- label auto:bug / undefined
+- label question / undefined
 
 ## renovate
 

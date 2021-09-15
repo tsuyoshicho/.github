@@ -2,9 +2,11 @@
 name: Bug Report
 about: Bug Report/不具合の報告
 title: ''
-labels: bug
+labels: auto:bug
 assignees: ''
 ---
+
+# Issue detail
 
 ## About bug/不具合の内容
 
@@ -21,4 +23,3 @@ assignees: ''
 ### Expected behavior/期待動作
 
 (正しいと思う動作が明確であれば記載してください)
-

@@ -1,12 +1,16 @@
-## related issue
+# Pull Request detail
+
+## Related issues or PRs/関連issueやPR
+
+related #.
 
 close #.
 
-## Fix or Add/Remove this PR/このプルリクエストでやったこと
+## Fix or Add/Remove in this PR/このプルリクエストでやったこと
 
 - ...
 
-## Not fix or add/remove this PR/このプルリクエストでやらなかったこと
+## Do not fix or add/remove this PR/このプルリクエストでやらなかったこと
 
 - ...
 
